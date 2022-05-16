@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    color: rgb(10, 10, 10);
+   background-color:aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-style: oblique;
+    margin-top: -10px;
+    border: none;
+    
+}
+
+.header-img {
+    background-image: url(./background\ img.jpg);
+    height: 1004px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    
+    
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 45px;
+    
+    color: aquamarine;
+    margin: 34px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 34px;
+}
+
+header nav {
+    margin: 34px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: blue;
+    
+
+}
+
+header nav ul li a {
+    padding: 10px 47px;
+    font-weight: lighter;
+    
+}
+
+header nav ul li a:hover {
+  background: rgb(189, 115, 115);
+  width: 100%;
+  border-radius: 10px;
+  text-shadow: none;
+}
+
+.infoMe {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+.hero-AM, .hero-MW, .hero-CM{
+  width:45%;
+  margin: 20px;
+ display: flex;
+ font-size: 25px;
+ flex-direction: column;
+ align-items: center;
+margin-bottom: 45px;
+
+}
+
+
+
+.hero-AM h2, .hero-MW h2, .hero-CM h2{
+font-size: 40px;
+color: royalblue;
+border-bottom-style: groove;
+
+}
+
+.main-project {
+    background-image: url(./First\ Challenge.png);
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    height: 619px;
+    border-radius:10px;
+    border: solid;
+    margin: 45px;
+    border-style: groove;
+    width: 80%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+    
+      
+}
+.test, .sub-style  {
+    border-style: groove;
+    height: 100px;
+    width: 20%;
+    border-color:rgb(43, 50, 43);
+    background: rgba(47, 47, 47, 0.3);
+    display: flex;
+}
+
+.sub-style {
+    width:40%;
+
+}
+
+.projectheader {
+    color: rgb(222, 230, 230);
+    font-family:'Oleo Script Swash Caps', cursive;
+    font-size: 34px;
+}
+
+.click1, .click2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.click1 {
+    width: 100%;
+}
+
+.more-projects
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 619px;
+    
+  
+    margin: 45px;
+   
+    width: 80%;
+}
+
+.side-projects {
+    width: 100%;
+    height: 309.5px;
+    border-style: groove;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(Run_Buddy_Placement.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.side-projects:hover {
+    transform: scale(1.2);
+    border-color: black;
+}
+
+.main-project:hover {
+    transform: scale(1.2);
+    border-color:royalblue;
+    border-style: double;
+}
+
+@media screen and (max-width: 980px) {
+.more-projects{ 
+    flex-direction: column;
+    height: 1238px;
+}
+
+.click2 {
+    width: 100%;
+}
+
+.side-projects {
+    height: 270px;
+}
+
+.header-img {
+    flex-direction: column;
+
+}
+
+}
+@media screen and (max-width: 768px) {
+.side-projects {
+    height: 250px;
+}
+.more-projects{ 
+    height: 1000px;
+}
+
+.sub-style {
+    width:25%;
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+}
+.projectheader {
+    font-size: 23px;
+
+}
+
+header nav ul {
+flex-wrap: nowrap;
+
+}
+header nav {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+}
+
+@media screen and (max-width: 575px) {
+    .side-projects {
+        height: 175px;
+    }
+    
+    .sub-style {
+        width:30%;
+        
+        height: 60px;
+    }
+    .projectheader {
+        font-size: 19px;
+    
+    }
+    .more-projects{ 
+        height: 700px;
+    }
+      
+    .nav-media {
+        font-size: 20px;
+        
+    }
+    .hero-CM {
+        width: 58%;
+    }
+}
+
+
+

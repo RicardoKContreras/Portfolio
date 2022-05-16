@@ -44,3 +44,5 @@
 * Added media query for sizes of a `tablet(980px-768px)` and a `phone(575px)`
 
 * Added a little bit of `styling` for practice
+
+* ![Site Photo](/assets/site-photo.png)

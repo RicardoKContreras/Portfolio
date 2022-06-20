@@ -171,17 +171,20 @@ border-bottom-style: groove;
     width: 80%;
 }
 
+
+
 .side-projects {
     width: 100%;
     height: 309.5px;
     border-style: groove;
     display: flex;
     align-items: flex-end;
-    background-image: url(Run_Buddy_Placement.png);
+    background-image: url(First\ group\ project.png);
     background-repeat: no-repeat;
     background-size:cover;
 
 }
+
 
 .side-projects:hover {
     transform: scale(1.2);

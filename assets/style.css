@@ -197,6 +197,17 @@ border-bottom-style: groove;
 
 }
 
+.side-projects3 {
+    width: 100%;
+    height: 309.5px;
+    border-style: groove;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(project\ 3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
 
 .side-projects:hover {
     transform: scale(1.2);
@@ -204,6 +215,11 @@ border-bottom-style: groove;
 }
 
 .side-projects2:hover {
+    transform: scale(1.2);
+    border-color: black;
+}
+
+.side-projects3:hover {
     transform: scale(1.2);
     border-color: black;
 }
